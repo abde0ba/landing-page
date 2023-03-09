@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+.footer-section {
+    background-color: black;
+    color: white;
+    height: 37vh;
+    font-family: 'DM Serif Text', serif;
+}
+
+.footer-section button, .footer-navs {
+    margin-top: 2rem;
+}
+
+.footer-section button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.footer-navs {
+    list-style: none;
+    font-family: 'Lexend', sans-serif;
+    text-align: left;
+}
+.footer-navs li {
+    margin: 15px 0;
+}
+.footer-navs a{
+    text-decoration: none;
+    color: white;
+}
+
+.copyright-social {
+    position: relative;
+    bottom: -1rem;
+    border-top: 1px solid white;
+    
+}
+.copyright-social svg{
+    font-size: 30px;
+    margin: 0 10px;
+}
+.copyright-social svg, .copyright-social p {
+    margin: 1.5rem
+}
+
+@media screen and (max-width: 991px) {
+    .footer-section {
+        height: 100%;
+    }
+    .copyright-social {
+        height: 100%;
+        background-color: black;
+    }
+}
